@@ -1,0 +1,54 @@
+body {
+  background: url("https://personaunesp.com.br/wp-content/uploads/2018/08/Imagem-01.jpg") no-repeat center
+    center fixed;
+  background-size: cover;
+  font-family: "Gabarito", sans-serif;
+  margin: 20px;
+}
+
+.logo {
+  text-align: end;
+}
+
+.logo img {
+  width: 40%;
+}
+
+/* Caixa principal do jogo */
+.conteudo-jogo {
+  display: flex;
+  background: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 5px orange;
+  margin: 30px;
+  padding: 20px;
+  justify-content: center;
+  margin-top: 2rem;
+  align-items: center;
+  text-align: center;
+}
+
+.conteudo-jogo:hover {
+  background: rgba(0, 0, 0);
+  box-shadow: 0 0 5px brown;
+}
+
+/* Títulos e textos */
+h2,
+p {
+  color: white;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  background: #ff1b7b;
+  color: brown;
+  cursor: pointer;
+  background-color: orange;
+}
+
+button:hover {
+  background: brown;
+  color: orange;
+}
